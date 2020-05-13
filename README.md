@@ -28,40 +28,40 @@ The dataset consists of images of wheat grains organised into five folders - gra
 - **Grain** - contains images of healthy wheat grains
 
   <p align="center">
-    <img src = "https://github.com/sachin235/AgroAI/blob/master/Dataset/grain/IMG_20161016_122456328_1.jpg?raw=true" width = 100 height = 100>
-    <img src = "https://github.com/sachin235/AgroAI/blob/master/Dataset/grain/IMG_20161016_122456328_10.jpg?raw=true" width = 100 height = 100>
-    <img src = "https://github.com/sachin235/AgroAI/blob/master/Dataset/grain/IMG_20161016_122456328_103.jpg?raw=true" width = 100 height = 100>
+    <img src = "https://github.com/ssaahhaajj/Code-Sample/blob/master/Dataset/grain/IMG_20161016_122456328_1.jpg?raw=true" width = 100 height = 100>
+    <img src = "https://github.com/ssaahhaajj/Code-Sample/blob/master/Dataset/grain/IMG_20161016_122456328_10.jpg?raw=true" width = 100 height = 100>
+    <img src = "https://github.com/ssaahhaajj/Code-Sample/blob/master/Dataset/grain/IMG_20161016_122456328_103.jpg?raw=true" width = 100 height = 100>
   </p>
 
 - **Damaged_grain** - contains images of non-healthy or deformed wheat grains
 
   <p align="center">
-    <img src = "https://github.com/sachin235/AgroAI/blob/master/Dataset/damaged_grain/IMG_20161016_124705064_395.jpg?raw=true" width = 100 height = 100>
-    <img src = "https://github.com/sachin235/AgroAI/blob/master/Dataset/damaged_grain/IMG_20161016_124705064_401.jpg?raw=true" width = 100 height = 100>
-    <img src = "https://github.com/sachin235/AgroAI/blob/master/Dataset/damaged_grain/IMG_20161016_124705064_416.jpg?raw=true" width = 100 height = 100>
+    <img src = "https://github.com/ssaahhaajj/Code-Sample/blob/master/Dataset/damaged_grain/IMG_20161016_124705064_395.jpg?raw=true" width = 100 height = 100>
+    <img src = "https://github.com/ssaahhaajj/Code-Sample/blob/master/Dataset/damaged_grain/IMG_20161016_124705064_401.jpg?raw=true" width = 100 height = 100>
+    <img src = "https://github.com/ssaahhaajj/Code-Sample/blob/master/Dataset/damaged_grain/IMG_20161016_124705064_416.jpg?raw=true" width = 100 height = 100>
   </p>
 
-- **Foreign** - contains images of particles other than wheat grains
+- **Foreign_particles** - contains images of particles other than wheat grains
 
   <p align="center">
-    <img src = "https://github.com/sachin235/AgroAI/blob/master/Dataset/foreign_particles/IMG_20161016_125744060_5734.jpg?raw=true" width = 100 height = 100>
+    <img src = "https://github.com/ssaahhaajj/Code-Sample/blob/master/Dataset/foreign_particles/IMG_20161016_125744060_5734.jpg?raw=true" width = 100 height = 100>
     <img src = "https://github.com/sachin235/AgroAI/blob/master/Dataset/foreign_particles/IMG_20161016_125744060_5759.jpg?raw=true" width = 100 height = 100>
-    <img src = "https://github.com/sachin235/AgroAI/blob/master/Dataset/foreign_particles/IMG_20161016_125744060_5756.jpg?raw=true" width = 100 height = 100>
+    <img src = "https://github.com/ssaahhaajj/Code-Sample/blob/master/Dataset/foreign_particles/IMG_20161016_125744060_5759.jpg?raw=true" width = 100 height = 100>
   </p>
 
 - **Broken_grain** - contains images of broken wheat grains
 
   <p align="center">
-    <img src = "https://github.com/sachin235/AgroAI/blob/master/Dataset/grain_broken/IMG_20161016_124705064_406.jpg?raw=true" width = 100 height = 100>
-    <img src = "https://github.com/sachin235/AgroAI/blob/master/Dataset/grain_broken/IMG_20161016_124705064_430.jpg?raw=true" width = 100 height = 100>
-    <img src = "https://github.com/sachin235/AgroAI/blob/master/Dataset/grain_broken/IMG_20161016_124705064_432.jpg?raw=true" width = 100 height = 100>
+    <img src = "https://github.com/ssaahhaajj/Code-Sample/blob/master/Dataset/grain_broken/IMG_20161016_124705064_406.jpg?raw=true" width = 100 height = 100>
+    <img src = "https://github.com/ssaahhaajj/Code-Sample/blob/master/Dataset/grain_broken/IMG_20161016_124705064_430.jpg?raw=true" width = 100 height = 100>
+    <img src = "https://github.com/ssaahhaajj/Code-Sample/blob/master/Dataset/grain_broken/IMG_20161016_124705064_432.jpg?raw=true" width = 100 height = 100>
   </p>
 
 - **Grain_cover** - contains images of cover of wheat grains
   <p align="center">
-    <img src = "https://github.com/sachin235/AgroAI/blob/master/Dataset/grain_covered/IMG_20161016_131740_4803.jpg?raw=true" width = 100 height = 100>
-    <img src = "https://github.com/sachin235/AgroAI/blob/master/Dataset/grain_covered/IMG_20161016_131740_4806.jpg?raw=true" width = 100 height = 100>
-    <img src = "https://github.com/sachin235/AgroAI/blob/master/Dataset/grain_covered/IMG_20161016_131740_4816.jpg?raw=true" width = 100 height = 100>
+    <img src = "https://github.com/ssaahhaajj/Code-Sample/blob/master/Dataset/grain_covered/IMG_20161016_131740_4803.jpg?raw=true" width = 100 height = 100>
+    <img src = "https://github.com/ssaahhaajj/Code-Sample/blob/master/Dataset/grain_covered/IMG_20161016_131740_4806.jpg?raw=true" width = 100 height = 100>
+    <img src = "https://github.com/ssaahhaajj/Code-Sample/blob/master/Dataset/grain_covered/IMG_20161016_131740_4816.jpg?raw=true" width = 100 height = 100>
   </p>
 
 ## Running Model
