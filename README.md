@@ -45,7 +45,7 @@ The dataset consists of images of wheat grains organised into five folders - gra
 
   <p align="center">
     <img src = "https://github.com/ssaahhaajj/Code-Sample/blob/master/Dataset/foreign_particles/IMG_20161016_125744060_5734.jpg?raw=true" width = 100 height = 100>
-    <img src = "https://github.com/sachin235/AgroAI/blob/master/Dataset/foreign_particles/IMG_20161016_125744060_5759.jpg?raw=true" width = 100 height = 100>
+    <img src = "https://github.com/ssaahhaajj/Code-Sample//blob/master/Dataset/foreign_particles/IMG_20161016_125744060_5759.jpg?raw=true" width = 100 height = 100>
     <img src = "https://github.com/ssaahhaajj/Code-Sample/blob/master/Dataset/foreign_particles/IMG_20161016_125744060_5759.jpg?raw=true" width = 100 height = 100>
   </p>
 
