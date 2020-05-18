@@ -1,11 +1,8 @@
 import tensorflow as tf
-tf.logging.set_verbosity(tf.logging.ERROR)
 import sys
 from utility_functions import display_mask, get_boundry_img_matrix
 import numpy as np, keras, cv2
 from segmentation1 import segment_image
-import os
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
 def pca(data):
     dvect = []
