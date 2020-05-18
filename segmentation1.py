@@ -59,27 +59,22 @@ def segment_image(img_file, dlog=0):
     h, w = org.shape[:2]
 
     img=org.copy()
-    t0 = time.time()
     
     img = cv2.fastNlMeansDenoisingColored(img,None,10,10,7,21)
-    t0 = time.time()
+    
     gray = np.array([[pixel[2] for pixel in row]for row in img])
 
     #### threshold value by using otsu thresholding ####
     T = otsu_threshold(gray=gray)
-    t0 = time.time()
 
     #### threshold image ####
     thresh = np.array([[0 if pixel<T else 255 for pixel in row]for row in gray], dtype=np.uint8)
-    t0 = time.time()
 
     #### Level 1 segmentation ####
 
     mask = get_8connected_v2(thresh, mcount=5)
-    t0 = time.time()
 
     s = cal_segment_area(mask)
-    t0 = time.time()
 
     low_Tarea, up_Tarea = areaThreshold_by_havg(s, 3)
     slist = list(s)
@@ -92,7 +87,6 @@ def segment_image(img_file, dlog=0):
             s1count += 1
             
     if dlog == 1: rm_detail.write("\n\t%d Number of segment rejected out of %d in L1 segmentation\n"%(s1count, total))
-    t0 = time.time()
 
     #### Level 2 segmentation ####
     new_s = {}
@@ -102,7 +96,7 @@ def segment_image(img_file, dlog=0):
 
     segments = {}
     s2count = extra = 0
-    t0 = time.time()
+    
     for sindex in s_range:
         s1 = {}
         org1 = get_img_value_inRange(org, mask, sindex, s[sindex])
