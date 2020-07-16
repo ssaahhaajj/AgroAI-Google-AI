@@ -1,5 +1,5 @@
-# Code-Sample
-This is a Sample code of one of my  Python project. This is a project to build an unbiased platform for farmers to predict quality and price of the crops.
+# AgroAI | Google AI
+This is a project done with Google AI. This project aims to build an unbiased platform for farmers to predict quality and price of the crops.
 
 ## Problem
 
